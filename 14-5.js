@@ -17,11 +17,11 @@
 //Factorial by Function
 
 function factorialByFn(n){
-    let factorial = 1;
+    let fact = 1;
     for( let i = 1; i <= n; i++){
-        factorial = factorial * i;
+        fact = fact * i;
     }
-    return factorial;
+    return fact;
 }
 
 let factorialResult1 = factorialByFn(5);
