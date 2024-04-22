@@ -1,10 +1,12 @@
 //14-2 Unit Convert Inch to Feet use variable and function
 
 //Normal calculation: If it needs one time
-/*var inch = 156;
+/*
+var inch = 156;
 
 var feet = inch / 12;
-console.log(feet);*/
+console.log(feet);
+*/
 
 //Function Method: If it needs multiple time
 function inchToFeet(inch) {
