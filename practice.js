@@ -1,5 +1,12 @@
-let inch = 200;
-let result = inch/12;
-let result2 = result.toFixed(0);
-result2 = Math.abs(result2);
-console.log(typeof(result2));
+// let inch = 300;
+// let feet = inch/12;
+// console.log(feet);
+
+
+function inchToFeet(inch){
+    let feet = inch/12;
+    return feet;
+}
+
+let result1 = inchToFeet(300);
+console.log(result1);

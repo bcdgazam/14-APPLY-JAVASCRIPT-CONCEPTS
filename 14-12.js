@@ -3,7 +3,7 @@
 //Discussed about previous lessons.
 
 /*
-    14-2 Unit Convert Inch to Feet use variable and function - Running
+    14-2 Unit Convert Inch to Feet use variable and function - Done
     14-3 variable let and const and how to use them
     14-4 check whether a year is a Leap Year or not
     14-5 Calculate Factorial of a number using for loop
