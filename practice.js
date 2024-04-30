@@ -96,15 +96,56 @@ console.log(name2); */
 // }
 
 
-function factorialOne (n){
-    let i = 1;
-    let factorialTwo = 1;
-    while(i <= n){
-        factorialTwo = factorialTwo * i;
-        i++;
-    }
-    return factorialTwo;
-}
+// function factorialOne (n){
+//     let i = 1;
+//     let factorialTwo = 1;
+//     while(i <= n){
+//         factorialTwo = factorialTwo * i;
+//         i++;
+//     }
+//     return factorialTwo;
+// }
 
-let factorialResult = factorialOne(6);
-console.log(factorialResult);
+// let factorialResult = factorialOne(6);
+// console.log(factorialResult);
+
+// let factorial = 1;
+// for (let i = 1; i <= 6; i++){
+//     factorial = factorial * i;
+//     console.log(factorial);
+// }
+
+// function factorial(n){
+//     let factorialCheck = 1;
+//     for(let i = 1; i <= 6; i++){
+//         factorialCheck = factorialCheck * i;
+//     }
+//     return factorialCheck;
+// }
+
+// let newFactorial = factorial(6);
+// console.log(newFactorial);
+
+
+// let i = 1;
+// let factorial = 1;
+
+// while(i<=6){
+//     factorial = factorial * i;
+//     console.log(factorial);
+//     i++;
+// }
+
+
+// function factorial(n){
+//     let i = 1;
+//     let factorialCheck = 1;
+//     while(i <= 6){
+//         factorialCheck = factorialCheck * i;
+//         i++;
+//     }
+//     return factorialCheck;
+// }
+
+// let factorialResult = factorial(6);
+// console.log(factorialResult);
