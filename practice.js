@@ -73,13 +73,13 @@ console.log(name2); */
 //     console.log(element);
 // }
 
-function factorialByFn(n){
+function factorial(n){
     let fact = 1;
-    for( let i = 1; i <= n; i++){
+    for (let i = 1; i <= 6; i++){
         fact = fact * i;
     }
     return fact;
 }
 
-let factorialResult1 = factorialByFn(6);
-console.log(factorialResult1)
+let factNumber = factorial(6);
+console.log(factNumber);
