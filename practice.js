@@ -67,10 +67,14 @@ console.log(name2); */
 
 // checkLeapYer(1080);
 
+// let array = [10, 20, 30, 40, 900];
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+//     console.log(element);
+// }
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-    for(let i = 0; i <= 10; i++){
-        console.log(i);
-    }
+let factorial = 1;
+for (let i = 1; i <= 6; i++){
+    factorial = factorial * i;
+    console.log(factorial);
 }
