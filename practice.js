@@ -73,13 +73,38 @@ console.log(name2); */
 //     console.log(element);
 // }
 
-function factorial(n){
-    let fact = 1;
-    for (let i = 1; i <= 6; i++){
-        fact = fact * i;
+// function factorial(n){
+//     let fact = 1;
+//     for (let i = 1; i <= 6; i++){
+//         fact = fact * i;
+//     }
+//     return fact;
+// }
+
+// let factNumber = factorial(6);
+// console.log(factNumber);
+
+//Factorial by while loop
+
+// let i =1; 
+// let factorial = 1;
+
+// while(i <= 6){
+//     factorial = factorial * i;
+//     console.log(factorial);
+//     i++;
+// }
+
+
+function factorialOne (n){
+    let i = 1;
+    let factorialTwo = 1;
+    while(i <= n){
+        factorialTwo = factorialTwo * i;
+        i++;
     }
-    return fact;
+    return factorialTwo;
 }
 
-let factNumber = factorial(6);
-console.log(factNumber);
+let factorialResult = factorialOne(6);
+console.log(factorialResult);
