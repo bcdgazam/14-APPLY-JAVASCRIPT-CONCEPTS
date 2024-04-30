@@ -56,13 +56,21 @@ console.log(name2); */
 
 // checkLeapYear(1080);
 
-function checkLeapYer(year){
-    if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
-        console.log(year + ' is a leap year!')
-    }
-    else{
-        console.log( year + ' is not a leap year')
+// function checkLeapYer(year){
+//     if((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+//         console.log(year + ' is a leap year!')
+//     }
+//     else{
+//         console.log( year + ' is not a leap year')
+//     }
+// }
+
+// checkLeapYer(1080);
+
+
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    for(let i = 0; i <= 10; i++){
+        console.log(i);
     }
 }
-
-checkLeapYer(1080);

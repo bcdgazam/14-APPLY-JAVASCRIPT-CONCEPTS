@@ -5,7 +5,7 @@
 /*
     14-2 Unit Convert Inch to Feet use variable and function - Done
     14-3 variable let and const and how to use them  - Done
-    14-4 check whether a year is a Leap Year or not
+    14-4 check whether a year is a Leap Year or not - Done
     14-5 Calculate Factorial of a number using for loop
     14-6 Calculate Factorial of a number using a while loop
     14-7 Calculate Factorial in a Recursive function
