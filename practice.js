@@ -171,9 +171,21 @@ console.log(name2); */
 
 //Fibonacci Practice
 
-let fibo = [0, 1];
-for(let i = 2; i <= 12; i++){
-    fibo[i] = fibo[i-1] + fibo[i-2];
+// let fibo = [0, 1];
+// for (let i = 2; i <= 10; i++) {
+//     fibo[i] = fibo[i-1] + fibo[i-2];
+// }
+
+// console.log(fibo);
+
+
+function fibonacci(n){
+    let fibo = [0, 1];
+    for(let i = 2; i <= n; i++){
+        fibo[i] = fibo[i-1] + fibo[i-2];
+    }
+    return fibo;
 }
 
-console.log(fibo)
+let fiboResult = fibonacci(12);
+console.log(fiboResult);
