@@ -205,6 +205,7 @@ console.log(name2); */
 // let result = fibonacci(12);
 // console.log(result);
 
+/*
 function isPrime(n){
     for(i = 2; i < n; i++){
         if (n % i == 0){
@@ -215,4 +216,17 @@ function isPrime(n){
 }
 
 let result = isPrime(133);
+console.log(result);
+*/
+
+function isPrime(n){
+    for(i = 2; i < n; i++){
+        if( n % i == 0){
+            return 'Not a prime number.'
+        }
+        return 'Your number is a prime Number.'
+    }
+}
+
+let result = isPrime(400);
 console.log(result);
