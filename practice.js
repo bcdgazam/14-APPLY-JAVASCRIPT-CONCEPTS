@@ -163,8 +163,17 @@ console.log(name2); */
 // let result = factorial(10);
 // console.log(result);
 
-let factorial = 1;
-for (let i = 6; i > 1; i--){
-    factorial = factorial * i;
-    console.log(factorial)
+// let factorial = 1;
+// for (let i = 6; i > 1; i--){
+//     factorial = factorial * i;
+//     console.log(factorial)
+// }
+
+//Fibonacci Practice
+
+let fibo = [0, 1];
+for(let i = 2; i <= 12; i++){
+    fibo[i] = fibo[i-1] + fibo[i-2];
 }
+
+console.log(fibo)
