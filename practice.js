@@ -179,13 +179,40 @@ console.log(name2); */
 // console.log(fibo);
 
 
-function fibonacci(n){
-    let fibo = [0, 1];
-    for(let i = 2; i <= n; i++){
-        fibo[i] = fibo[i-1] + fibo[i-2];
+// function fibonacci(n){
+//     let fibo = [0, 1];
+//     for(let i = 2; i <= n; i++){
+//         fibo[i] = fibo[i-1] + fibo[i-2];
+//     }
+//     return fibo;
+// }
+
+// let fiboResult = fibonacci(12);
+// console.log(fiboResult);
+
+// function fibonacci(n){
+//     if(n == 0) {
+//         return 0;
+//     }
+//     if(n == 1){
+//         return 1;
+//     }
+//     else{
+//         return fibonacci(n-1) + fibonacci(n-2);
+//     }
+// }
+
+// let result = fibonacci(12);
+// console.log(result);
+
+function isPrime(n){
+    for(i = 2; i < n; i++){
+        if (n % i == 0){
+            return 'Not a Prime Number';
+        }
     }
-    return fibo;
+    return 'Your Number Is a Prime Number';
 }
 
-let fiboResult = fibonacci(12);
-console.log(fiboResult);
+let result = isPrime(133);
+console.log(result);
