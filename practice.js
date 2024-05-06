@@ -238,10 +238,15 @@ console.log(result);
 // let result = footToInch.toFixed();
 // console.log(result);
 
-function inchToFeet(n){
-    let feet = n/12;
-    return feet;
-}
+// function inchToFeet(n){
+//     let feet = n/12;
+//     return feet;
+// }
 
-result = inchToFeet(20)
-console.log(result)
+// let result = inchToFeet(240);
+// console.log(result);
+
+let speech = 'I love bangladesh';
+const consTant = 'Bangladesh';
+console.log(speech);
+console.log(consTant);
