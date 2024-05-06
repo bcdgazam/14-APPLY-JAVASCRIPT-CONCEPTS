@@ -219,14 +219,29 @@ let result = isPrime(133);
 console.log(result);
 */
 
-function isPrime(n){
-    for(i = 2; i < n; i++){
-        if( n % i == 0){
-            return 'Not a prime number.'
-        }
-        return 'Your number is a prime Number.'
-    }
+// function isPrime(n){
+//     for(i = 2; i < n; i++){
+//         if( n % i == 0){
+//             return 'Not a prime number.'
+//         }
+//         return 'Your number is a prime Number.'
+//     }
+// }
+
+// let result = isPrime(4);
+// console.log(result);
+
+
+// let inch = 5000;
+
+// let footToInch = inch / 12;
+// let result = footToInch.toFixed();
+// console.log(result);
+
+function inchToFeet(n){
+    let feet = n/12;
+    return feet;
 }
 
-let result = isPrime(400);
-console.log(result);
+result = inchToFeet(20)
+console.log(result)
