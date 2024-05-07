@@ -53,13 +53,48 @@
 
 // Factorial Practice
 
-function getFactorial(n){
-    let factorial = 1;
-    for(let i = 1; i <= n; i++){
-        factorial = factorial * i;
+// function getFactorial(n){
+//     let factorial = 1;
+//     for(let i = 1; i <= n; i++){
+//         factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+
+// let result = getFactorial(6);
+// console.log(result);
+
+//Practice factorial by while loop
+
+// function getFactorial(n){
+//     let factorial = 1;
+//     let i = 1;
+//     while(i <= n){
+//         factorial = factorial * i;
+//         i--;
+//     }
+//     return factorial;
+// }
+
+// let result = getFactorial(6);
+// console.log(result);
+
+
+let fibo = [0, 1];
+for (let i = 2; i <= 12; i++) {
+    fibo[i] = fibo[i-1] + fibo[i-2];
+}
+console.log(fibo);
+
+//Put in a Function
+
+function fibonacci(n){
+    let fibo = [0, 1];
+    for (let i = 2; i <= n; i++) {
+        fibo[i] = fibo[i-1] + fibo[i-2];
     }
-    return factorial;
+    return fibo;
 }
 
-let result = getFactorial(6);
+let result = fibonacci(12);
 console.log(result);
