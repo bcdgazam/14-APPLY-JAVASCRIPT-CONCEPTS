@@ -40,13 +40,26 @@
 // let reminder1 = leapYear % 4;
 // console.log(reminder1 == 0);
 
-function checkLeapYear(year){
-    if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
-        console.log(year, ' is a leap year')
+// function checkLeapYear(year){
+//     if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+//         console.log(year, ' is a leap year')
+//     }
+//     else{
+//         console.log(year, ' is not a leap year.')
+//     }
+// }
+
+// checkLeapYear(2024);
+
+// Factorial Practice
+
+function getFactorial(n){
+    let factorial = 1;
+    for(let i = 1; i <= n; i++){
+        factorial = factorial * i;
     }
-    else{
-        console.log(year, ' is not a leap year.')
-    }
+    return factorial;
 }
 
-checkLeapYear(2024);
+let result = getFactorial(6);
+console.log(result);
