@@ -14,20 +14,38 @@
 
 // Check leap year
 
-const lepYear = 3688;
-const reminder1 = lepYear / 4 ;
-console.log(reminder1);
+// const lepYear = 3688;
+// const reminder1 = lepYear / 4 ;
+// console.log(reminder1);
 
-const leapYear2 = 3688;
-const reminder2 = leapYear2 % 4;
-console.log(reminder2 == 0);
+// const leapYear2 = 3688;
+// const reminder2 = leapYear2 % 4;
+// console.log(reminder2 == 0);
 
-function checkLeapYear(n){
-    if((n % 4 === 0 && n % 100 !== 0) || (n % 400 === 0)){
-        console.log( n, ' is a leap year.');
+// function checkLeapYear(n){
+//     if((n % 4 === 0 && n % 100 !== 0) || (n % 400 === 0)){
+//         console.log( n, ' is a leap year.');
+//     }
+//     else{
+//         console.log( n, ' is not a leap year!')
+//     }
+// }
+
+// checkLeapYear(2024);
+
+
+//Again revision
+
+// let leapYear = 2024;
+// let reminder1 = leapYear % 4;
+// console.log(reminder1 == 0);
+
+function checkLeapYear(year){
+    if((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+        console.log(year, ' is a leap year')
     }
     else{
-        console.log( n, ' is not a leap year!')
+        console.log(year, ' is not a leap year.')
     }
 }
 
